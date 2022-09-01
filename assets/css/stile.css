@@ -19,6 +19,12 @@ body {
 	padding: 25px 10px;
 }
 
+h1 {
+	font-weight: 600;
+	font-size: 1.4em;
+	line-height: 1.4em;
+}
+
 /* HEADER */
 
 header {
@@ -48,9 +54,77 @@ header a {
 
 /* MAIN */
 
+main {
+	margin: 30px auto;
+	background-color: white;
+	padding: 15px;
+	box-shadow: 1px 0 0 gray, -1px 0 0 gray;
+}
+
 /* ELEMENTI NEL MAIN - ARTICLE */
 
+article {
+	line-height: 1.1em;
+}
+
+article i {
+	margin-right: 8px;
+}
+
+article p,
+article ul,
+article ol,
+article table {
+	margin: 15px 0;
+	font-size: 0.8em;
+}
+
+.article__p--gray {
+	color: gray;
+}
+
+.article__ul {
+	padding: 0 30px;
+}
+
+.article__ul code {
+	background-color: #f1f1f2;
+	border: 1.5px gray solid;
+	border-radius: 6px;
+}
+
+.article__strong--fucsia {
+	font-weight: bold;
+	color: #890b2f;
+}
 /* TABELLE */
+
+table {
+	border-bottom: #3d5ec9 1.5px solid;
+}
+
+table th,
+table td {
+	padding: 8px;
+}
+
+table caption {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.table__th--blue {
+	background-color: #3d5ec9;
+	color: white;
+}
+
+.table__th--border {
+	border-right: silver 0.2px solid;
+}
+
+.table__tr--bg_silver {
+	background-color: #f1f1f2;
+}
 
 /* FORM */
 
