@@ -97,10 +97,16 @@ article table {
 	font-weight: bold;
 	color: #890b2f;
 }
+
+.article__a--azure {
+	color: #0d9abfff;
+}
+
 /* TABELLE */
 
 table {
 	border-bottom: #3d5ec9 1.5px solid;
+	font-weight: bold;
 }
 
 table th,
@@ -124,6 +130,14 @@ table caption {
 
 .table__tr--bg_silver {
 	background-color: #f1f1f2;
+}
+
+/* IFRAME */
+
+iframe {
+	width: 100%;
+	border-radius: 20px;
+	margin-bottom: 20px;
 }
 
 /* FORM */
