@@ -25,6 +25,12 @@ h1 {
 	line-height: 1.4em;
 }
 
+h2 {
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
 /* HEADER */
 
 header {
@@ -141,6 +147,25 @@ iframe {
 }
 
 /* FORM */
+
+.newsletter__section {
+	background-color: #f1f1f2;
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+.newsletter__section input {
+	display: inline-block;
+	width: 60%;
+	border-style: none;
+	border-bottom: 1.5px silver dashed;
+}
+
+.newsletter__section button {
+	color: white;
+	background-color: #3d5ec9;
+	border-style: none;
+}
 
 /* ELEMENTI NELL' ASIDE */
 
