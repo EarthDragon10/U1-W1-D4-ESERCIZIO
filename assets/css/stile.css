@@ -64,7 +64,7 @@ main {
 	margin: 30px auto;
 	background-color: white;
 	padding: 15px;
-	box-shadow: 1px 0 0 gray, -1px 0 0 gray;
+	box-shadow: 1px 1px 8px gray, -1px 0 8px gray;
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -112,7 +112,6 @@ article table {
 
 table {
 	border-bottom: #3d5ec9 1.5px solid;
-	font-weight: bold;
 }
 
 table th,
@@ -169,4 +168,41 @@ iframe {
 
 /* ELEMENTI NELL' ASIDE */
 
+aside div {
+	background-color: #f1f1f2;
+	border: #c5c5c5 1.5px solid;
+	margin: 15px;
+	padding: 15px;
+	font-size: 0.8em;
+	line-height: 1.5em;
+}
+
+aside div a {
+	color: #0d9abfff;
+	font-weight: bold;
+}
+
+aside div p:last-child {
+	text-align: right;
+	font-size: 0.8em;
+}
 /* FOOTER */
+
+footer {
+	text-align: center;
+	background-image: linear-gradient(180deg, #056d89ff, black);
+	padding: 20px 30px;
+	color: white;
+	font-size: 0.7em;
+	line-height: 1.6em;
+	box-shadow: 0 1px 8px black;
+}
+
+footer p {
+	margin-bottom: 8px;
+}
+
+footer a {
+	font-weight: bold;
+	color: fuchsia;
+}
